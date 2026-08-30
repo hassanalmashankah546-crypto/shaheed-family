@@ -142,26 +142,6 @@
             margin-bottom: 4px;
         }
 
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 18px;
-        }
-
-        .gallery-grid img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 14px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-            background: #ddd;
-            transition: 0.2s;
-        }
-
-        .gallery-grid img:hover {
-            transform: scale(1.02);
-        }
-
         .reference-box {
             background: #f4f1eb;
             padding: 20px 25px;
@@ -174,6 +154,7 @@
             color: #39483d;
             font-weight: bold;
             text-decoration: none;
+            font-size: 18px;
         }
 
         .reference-box a:hover {
@@ -208,10 +189,6 @@
                 grid-template-columns: 1fr;
             }
 
-            .gallery-grid {
-                grid-template-columns: 1fr;
-            }
-
             nav a {
                 display: inline-block;
                 margin: 6px 12px;
@@ -238,7 +215,6 @@
 <nav>
     <a href="#about">السيرة</a>
     <a href="#story">قصة الاستشهاد</a>
-    <a href="#gallery">الصور</a>
     <a href="#sources">المصادر</a>
 </nav>
 
@@ -248,7 +224,6 @@
     <section id="about" class="hero-section">
         <div class="hero-grid">
             <div class="hero-image">
-                <!-- صورة الشهيد (تم تغيير الرابط لصورة حقيقية من ويكيبيديا) -->
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/الشهيد_مصطفى_البنادرة.png" alt="صورة الشهيد مصطفى البنادرة">
             </div>
             <div class="hero-text">
@@ -329,16 +304,6 @@
         </p>
     </section>
 
-    <!-- معرض الصور -->
-    <section id="gallery">
-        <h2>معرض الصور</h2>
-        <div class="gallery-grid">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/الشهيد_مصطفى_البنادرة.png" alt="صورة الشهيد مصطفى البنادرة">
-            <img src="https://via.placeholder.com/400x250/8b6f47/ffffff?text=صورة+أرشيفية+1" alt="صورة أرشيفية 1">
-            <img src="https://via.placeholder.com/400x250/39483d/ffffff?text=صورة+أرشيفية+2" alt="صورة أرشيفية 2">
-        </div>
-    </section>
-
     <!-- المصادر والمراجع -->
     <section id="sources">
         <h2>المصادر والمراجع</h2>
@@ -346,7 +311,7 @@
             <p><strong>المرجع الرسمي:</strong></p>
             <p>
                 <a href="https://www.jaf.mil.jo/Assets/File/final%20martyrs%20ar.pdf" target="_blank">
-                    https://www.jaf.mil.jo/Assets/File/final%20martyrs%20ar.pdf
+                    مرجع
                 </a>
             </p>
             <p style="margin-top: 12px;"><strong>وثائق عائلية وتاريخية:</strong></p>
