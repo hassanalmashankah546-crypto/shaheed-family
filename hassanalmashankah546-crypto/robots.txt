@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hassanalmashankah546-crypto.github.io/shaheed-family/sitemap.xml
